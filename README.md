@@ -2,6 +2,8 @@
 
 BetaHub is a two-sided QA marketplace prototype that connects product teams with independent testers. Clients publish structured testing tasks, testers apply and submit reports, and the platform keeps task status, applications, reports, payments, profiles, and messages in one workflow.
 
+Demo video: https://youtu.be/Q7vSebaYm7g
+
 ## Challenge
 
 **Chosen challenge:** workforce access and digital business support through practical software testing.
