@@ -1,0 +1,587 @@
+@media (max-width: 980px) {
+  .auth-shell,
+  .dashboard-grid,
+  .client-dashboard,
+  .tester-dashboard {
+    grid-template-columns: 1fr;
+  }
+
+  .landing-shell {
+    border-radius: 0;
+  }
+
+  .landing-hero {
+    grid-template-columns: 1fr;
+    min-height: 0;
+  }
+
+  .landing-product {
+    min-height: 0;
+  }
+
+  .landing-steps {
+    grid-template-columns: 1fr;
+  }
+
+  .landing-benefits {
+    grid-template-columns: 1fr 1fr;
+    margin-top: 28px;
+  }
+
+  .landing-step-arrow {
+    transform: rotate(90deg);
+  }
+
+  .landing-benefit + .landing-benefit {
+    border-left: 0;
+  }
+
+  .landing-benefit:nth-child(2n) {
+    border-left: 1px solid #e9ebf4;
+  }
+
+  .landing-benefit:nth-child(n + 3) {
+    border-top: 1px solid #e9ebf4;
+  }
+
+  .landing-nav {
+    display: none;
+  }
+
+  .auth-shell {
+    border-radius: 0;
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .auth-hero-panel {
+    min-height: 560px;
+  }
+
+  .auth-panel {
+    padding-top: 0;
+  }
+
+  .auth-card {
+    width: min(100%, 680px);
+    margin: 0 auto 42px;
+  }
+
+  .tester-tools {
+    flex-wrap: wrap;
+  }
+
+  .tester-tools .search-box {
+    min-width: 100%;
+  }
+
+  .task-detail-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .task-overview-stats,
+  .overview-card-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .client-task-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tester-board-heading,
+  .tester-filter-row {
+    grid-template-columns: 1fr;
+  }
+
+  .tester-board-heading {
+    display: grid;
+  }
+
+  .tester-metrics {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .payments-metrics {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .tester-task-row {
+    grid-template-columns: 78px minmax(0, 1fr);
+  }
+
+  .tester-task-facts,
+  .tester-task-actions,
+  .tester-apply-row {
+    grid-column: 1 / -1;
+  }
+
+  .tester-task-facts {
+    border-left: 0;
+    border-top: 1px solid #e5edf4;
+    padding: 16px 0 0;
+  }
+
+  .client-toolbar {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .client-toolbar-actions {
+    justify-content: flex-start;
+  }
+
+  .applications-workspace {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-content-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-stats-card,
+  .profile-bottom-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .applicant-detail-panel {
+    border: 0;
+    border-bottom: 1px solid #e5edf4;
+  }
+
+  .client-page-sidebar .applications-nav {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .applications-nav {
+    grid-column: 1 / -1;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .hero {
+    min-height: 58vh;
+  }
+
+  .landing-topbar {
+    padding-block: 16px;
+  }
+
+  .landing-topbar-actions {
+    margin-left: auto;
+  }
+
+  .landing-dashboard-content {
+    grid-template-columns: 1fr;
+  }
+
+  .landing-split-section,
+  .landing-split-section.reverse,
+  .landing-pricing {
+    grid-template-columns: 1fr;
+  }
+
+  .landing-split-section.reverse > div:first-child {
+    order: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .app-shell {
+    padding: 10px;
+  }
+
+  .topbar,
+  .panel-heading,
+  .task-card-header,
+  .apply-row,
+    .form-grid,
+    .task-detail-grid,
+    .applicant,
+    .task-overview-stats,
+    .overview-card-grid,
+    .client-task-meta,
+    .profile-stats-card,
+    .profile-bottom-stats,
+    .tester-metrics,
+    .tester-task-row,
+    .tester-apply-row,
+    .payments-metrics,
+    .payment-row {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-hero-panel,
+  .profile-hero-main,
+  .profile-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .profile-actions .primary-button,
+  .profile-actions .secondary-button {
+    width: 100%;
+  }
+
+  .profile-stat {
+    border-right: 0;
+    border-bottom: 1px solid #e5edf4;
+  }
+
+  .profile-bottom-stats {
+    margin-inline: 16px;
+  }
+
+  .applications-center,
+  .applicant-detail-panel {
+    padding: 16px;
+  }
+
+  .client-page-sidebar .applications-nav,
+  .applications-nav,
+  .applications-heading,
+  .applications-tools,
+  .candidate-row,
+  .applicant-profile-head,
+  .applicant-detail-actions {
+    grid-template-columns: 1fr;
+  }
+
+  .reports-viewer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .applications-heading {
+    display: grid;
+  }
+
+  .applications-metrics {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .candidate-stat {
+    border-left: 0;
+    border-top: 1px solid #e5edf4;
+    padding: 10px 0 0;
+  }
+
+  .candidate-actions {
+    justify-items: stretch;
+  }
+
+  .topbar {
+    display: grid;
+  }
+
+  .user-chip {
+    justify-self: start;
+  }
+
+  .icon-button {
+    justify-self: start;
+  }
+
+  .panel-heading,
+  .task-card-header {
+    display: grid;
+  }
+
+  .auth-panel {
+    padding: 0 16px 28px;
+  }
+
+  .auth-shell {
+    height: auto;
+    min-height: 100vh;
+    border-radius: 0;
+  }
+
+  .auth-hero-panel {
+    min-height: 0;
+    padding: 22px 16px 0;
+  }
+
+  .auth-brand {
+    font-size: 24px;
+  }
+
+  .auth-hero-content {
+    padding-top: 34px;
+  }
+
+  .auth-hero-copy h1 {
+    font-size: 46px;
+  }
+
+  .auth-hero-copy p {
+    margin-top: 22px;
+    font-size: 17px;
+  }
+
+  .auth-illustration {
+    position: relative;
+    right: auto;
+    top: auto;
+    width: 100%;
+    height: 330px;
+    min-height: 0;
+    margin-top: 22px;
+  }
+
+  .auth-orbit,
+  .auth-floating-card.chart,
+  .auth-floating-badge {
+    display: none;
+  }
+
+  .auth-floating-card.report {
+    top: 26px;
+    left: 50%;
+    width: 210px;
+    min-height: 260px;
+    transform: translateX(-50%) rotate(12deg);
+  }
+
+  .auth-floating-message {
+    top: 205px;
+    right: 18px;
+    width: 180px;
+  }
+
+  .auth-map {
+    height: 180px;
+  }
+
+  .auth-benefits {
+    grid-template-columns: 1fr;
+    margin-top: 18px;
+  }
+
+  .auth-benefits span {
+    grid-template-columns: 34px minmax(0, 1fr);
+    justify-items: start;
+    align-items: center;
+    min-height: 74px;
+    padding: 18px;
+    text-align: left;
+  }
+
+  .auth-benefits span + span {
+    border-top: 1px solid #e1e5f4;
+    border-left: 0;
+  }
+
+  .auth-card {
+    width: 100%;
+    margin: 24px 0 0;
+    padding: 26px 18px;
+    border-radius: 16px;
+  }
+
+  .auth-card-header h2 {
+    font-size: 27px;
+  }
+
+  .auth-card-header p {
+    margin-top: 12px;
+    font-size: 16px;
+  }
+
+  .auth-role-switch {
+    margin: 28px 0;
+  }
+
+  .auth-role-switch button {
+    min-height: 58px;
+    font-size: 16px;
+  }
+
+  .auth-form {
+    gap: 18px;
+  }
+
+  .auth-input-wrap input,
+  .auth-submit {
+    min-height: 56px;
+    font-size: 16px;
+  }
+
+  .auth-mode-footer {
+    flex-wrap: wrap;
+    font-size: 16px;
+  }
+
+  .landing-shell {
+    box-shadow: none;
+  }
+
+  .landing-topbar {
+    align-items: stretch;
+    flex-direction: column;
+    min-height: 0;
+    padding: 16px;
+  }
+
+  .landing-topbar-actions {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .landing-topbar-actions {
+    flex-direction: column;
+  }
+
+  .landing-topbar-actions .landing-primary-button,
+  .landing-topbar-actions .landing-link-button {
+    width: 100%;
+  }
+
+  .landing-hero {
+    gap: 34px;
+    padding: 34px 16px 28px;
+  }
+
+  .landing-scroll-top {
+    right: 16px;
+    bottom: 16px;
+    width: 46px;
+    height: 46px;
+  }
+
+  .landing-copy h1 {
+    font-size: 42px;
+  }
+
+  .landing-copy p {
+    font-size: 17px;
+  }
+
+  .landing-actions,
+  .landing-trust-row {
+    gap: 12px;
+  }
+
+  .landing-primary-button.wide,
+  .landing-secondary-button.wide {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .landing-dashboard {
+    grid-template-columns: 1fr;
+  }
+
+  .landing-dashboard-rail,
+  .landing-shield,
+  .landing-document {
+    display: none;
+  }
+
+  .landing-dashboard-main {
+    padding: 18px;
+  }
+
+  .landing-stats-grid,
+  .landing-report-card,
+  .landing-steps,
+  .landing-benefits,
+  .landing-quote {
+    grid-template-columns: 1fr;
+  }
+
+  .landing-activity-row {
+    grid-template-columns: 28px minmax(0, 1fr);
+  }
+
+  .landing-activity-row time {
+    grid-column: 2;
+  }
+
+  .landing-section {
+    padding: 28px 16px;
+  }
+
+  .landing-split-section,
+  .landing-pricing {
+    padding: 34px 16px;
+  }
+
+  .landing-split-section h2,
+  .landing-pricing h2 {
+    font-size: 30px;
+  }
+
+  .landing-split-section p,
+  .landing-pricing-copy p {
+    font-size: 16px;
+  }
+
+  .landing-feature-card,
+  .landing-price-card {
+    padding: 22px;
+  }
+
+  .landing-price-card strong {
+    font-size: 36px;
+  }
+
+  .landing-benefits {
+    margin-top: 24px;
+  }
+
+  .landing-benefit {
+    grid-template-columns: 1fr;
+    padding: 24px;
+  }
+
+  .landing-benefit:nth-child(2n),
+  .landing-benefit:nth-child(n + 3),
+  .landing-benefit + .landing-benefit {
+    border-left: 0;
+    border-top: 1px solid #e9ebf4;
+  }
+
+  .landing-benefit:first-child {
+    border-top: 0;
+  }
+
+  .landing-quote {
+    justify-items: start;
+    padding: 30px 16px 40px;
+  }
+
+  .segmented {
+    grid-template-columns: 1fr;
+  }
+
+  .client-main-panel {
+    padding: 12px;
+  }
+
+  .client-toolbar-actions,
+  .client-task-card .card-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .client-task-card .card-actions .secondary-button,
+  .client-task-card .card-actions .icon-only,
+  .create-task-button,
+  .filter-control {
+    width: 100%;
+  }
+
+  .client-task-budget {
+    margin-right: 0;
+  }
+
+  .task-overview-hero,
+  .overview-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .view-applications-button,
+  .overview-actions .secondary-button {
+    width: 100%;
+  }
+}
