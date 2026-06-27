@@ -285,6 +285,8 @@ The prototype does not yet include:
 - file uploads for screenshots;
 - online chat or push notifications;
 - real payment processing;
-- admin moderation dashboard.
+- admin moderation dashboard.s
 
 These are planned production steps, not blockers for validating the core workflow.
+
+![BetaHub infographics](infographics/BetaHub%20infographics.png)
