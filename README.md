@@ -246,6 +246,16 @@ npm run build
 - lucide-react icons
 - Browser `localStorage`
 
+## Repository Assets
+
+- The repository includes supporting folders for full review:
+	- `infographics` — project infographics and visual assets.
+	- `presentation` — presentation slides (for example, Presentation.pptx).
+	- `project_report` — project report files and documentation.
+	- `Screenshots` — screenshots illustrating flows, reports, and UI states.
+
+You can reference files from these folders (for example, `infographics/BetaHub infographics.png`) when reviewing the project.
+
 ## Evidence And Validation
 
 The prototype validates the core product loop:
